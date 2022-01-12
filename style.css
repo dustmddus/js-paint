@@ -1,0 +1,54 @@
+@import "reset.css";
+body {
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.title {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.canvas {
+  background-color: rgb(247, 242, 242);
+  border-radius: 5%;
+}
+.penControls {
+  padding-top: 30px;
+}
+.controlBtns {
+  padding-top: 15px;
+}
+.controlBtns button {
+  all: unset;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 5px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controlBtns button:active {
+  transform: scale(0.98);
+}
+
+.colorsControl {
+  padding-top: 20px;
+  display: flex;
+}
+
+.colorsControl .color {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
