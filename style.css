@@ -6,11 +6,17 @@ body {
   align-items: center;
   padding: 50px 0;
 }
+.logo {
+  padding-bottom: 30px;
+}
 .title {
   color: white;
   font-size: 45px;
   font-weight: bold;
-  padding-bottom: 30px;
+  padding-right: 5px;
+}
+.icon {
+  font-size: 40px;
 }
 .canvas {
   background-color: rgb(247, 242, 242);
